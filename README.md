@@ -26,3 +26,10 @@ If you are developing a production application, we recommend updating the config
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 # calendar-datepicker
+
+Lists all API properties of the Calendar component
+
+| Prop Name    | Type                       | Default                                     | Description                |
+|--------------|----------------------------|---------------------------------------------|----------------------------|
+| selectedDate | Moment object or undefined | date or undefined                           | Date selected when clicked |
+| onSelectDate | function(date)             | Function called when the user clicks a day. |                            |
